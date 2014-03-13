@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="19" tokens="85">
+      <file line="65"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CatalogServiceImpl.java"/>
+      <file line="87"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <codefragment><![CDATA[			this.logger.error(msg, de);
+			
+			throw new DuplicateProductIdException(msg, de);
+		} catch (Exception e) {
+			String msg = "Could not save product " + e.toString();
+			this.logger.error(msg, e);
+			
+			throw new CatalogException(msg, e);
+		}
+	}
+
+	/**
+	 * @see CatalogService#updateProduct(Product)
+	 */
+	public void updateProduct(Product product) throws CatalogException {
+		this.logger.debug(("entering method updateProduct"));
+		
+		try {
+			this.catalogDao.updateProduct(product);]]></codefragment>
+   </duplication>
+   <duplication lines="36" tokens="78">
+      <file line="182"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\ProductBean.java"/>
+      <file line="28"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Product.java"/>
+      <codefragment><![CDATA[	}
+	
+	public String getId() {
+		return this.id;
+	}
+	
+	/**
+	 * Invoked by the JSF managed bean facility. 
+	 * <p>
+	 * The id is from the request parameter.
+	 * If the id is not null, by using the id as the key,
+	 * the product bean is initialized.
+	 * 
+	 * @param newQueryId the query id from request parameter
+	 */
+	public void setId(String newId) {
+		this.id = newId;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String newName) {
+		this.name = newName;
+	}
+	
+	public String getDescription() {
+		return this.description;
+	}
+	
+	public void setDescription(String newDescription) {
+		this.description = newDescription;
+	}
+	
+	public double getPrice() {]]></codefragment>
+   </duplication>
+   <duplication lines="34" tokens="76">
+      <file line="182"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\ProductBean.java"/>
+      <file line="28"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Product.java"/>
+      <file line="20"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Category.java"/>
+      <codefragment><![CDATA[	}
+	
+	public String getId() {
+		return this.id;
+	}
+	
+	/**
+	 * Invoked by the JSF managed bean facility. 
+	 * <p>
+	 * The id is from the request parameter.
+	 * If the id is not null, by using the id as the key,
+	 * the product bean is initialized.
+	 * 
+	 * @param newQueryId the query id from request parameter
+	 */
+	public void setId(String newId) {
+		this.id = newId;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String newName) {
+		this.name = newName;
+	}
+	
+	public String getDescription() {
+		return this.description;
+	}
+	
+	public void setDescription(String newDescription) {
+		this.description = newDescription;
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="52">
+      <file line="223"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\ProductBean.java"/>
+      <file line="52"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Product.java"/>
+      <codefragment><![CDATA[	}
+	
+	public double getWidth() {
+		return this.width;
+	}
+	
+	public void setWidth(double newWidth) {
+		this.width = newWidth;
+	}
+	
+	public double getHeight() {
+		return this.height;
+	}
+	
+	public void setHeight(double newHeight) {
+		this.height = newHeight;
+	}
+	
+	public Set getCategoryIds() {]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="51">
+      <file line="82"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\UserBean.java"/>
+      <file line="19"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\User.java"/>
+      <codefragment><![CDATA[	}
+	
+	public String getUsername() {
+		return this.username;
+	}
+	
+	public void setUsername(String newUsername) {
+		this.username = newUsername;
+	}
+	
+	public String getPassword() {
+		return this.password;
+	}
+	
+	public void setPassword(String newPassword) {
+		this.password = newPassword;
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="50">
+      <file line="86"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CatalogServiceImpl.java"/>
+      <file line="110"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <codefragment><![CDATA[			this.logger.error(msg, e);
+			
+			throw new CatalogException(msg, e);
+		}		
+	}
+	
+	/**
+	 * @see CatalogService#deleteProduct(Product)
+	 */
+	public void deleteProduct(Product product) throws CatalogException {
+		this.logger.debug(("entering method deleteProduct"));
+		
+		try {
+			this.catalogDao.deleteProduct(product);]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="47">
+      <file line="49"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CatalogServiceImpl.java"/>
+      <file line="69"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <codefragment><![CDATA[	public void setCatalogDao(CatalogDao newCatalogDao) {
+		this.catalogDao = newCatalogDao;
+	}
+	
+	/**
+	 * @see CatalogService#saveProduct(Product)
+	 */
+	public Product saveProduct(Product product) throws CatalogException {
+		this.logger.debug(("entering method saveProduct"));
+		
+		try {
+			Product newProduct = this.catalogDao.saveProduct(product);]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="41">
+      <file line="25"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\util\ViewUtils.java"/>
+      <file line="44"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\util\ViewUtils.java"/>
+      <codefragment><![CDATA[		Set result = new HashSet();
+		
+		if (orig != null) {
+			Iterator ite = orig.iterator();
+			
+			while (ite.hasNext()) {
+				result.add(ite.next());
+			}
+		}
+		
+		return result;
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="39">
+      <file line="66"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\dao\hibernate\CatalogDaoHibernateImpl.java"/>
+      <file line="94"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\dao\hibernate\CatalogDaoHibernateImpl.java"/>
+      <codefragment><![CDATA[	public List getAllProducts() {
+		return getHibernateTemplate().executeFind(new HibernateCallback() {
+			public Object doInHibernate(Session session)
+				throws HibernateException, SQLException {
+
+				StringBuffer sb = new StringBuffer(100);
+				sb.append("select distinct product ");]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="28">
+      <file line="74"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\dao\hibernate\CatalogDaoHibernateImpl.java"/>
+      <file line="102"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\dao\hibernate\CatalogDaoHibernateImpl.java"/>
+      <codefragment><![CDATA[				sb.append("order by product.id");
+
+				Query query = session.createQuery(sb.toString());
+				List list = query.list();
+
+				return list;
+			}
+		});		
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="11" tokens="27">
+      <file line="215"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\ProductBean.java"/>
+      <file line="68"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Product.java"/>
+      <codefragment><![CDATA[	}
+	
+	public double getPrice() {
+		return this.price;
+	}
+	
+	public void setPrice(double newPrice) {
+		this.price = newPrice;
+	}
+	
+	public double getWidth() {]]></codefragment>
+   </duplication>
+   <duplication lines="10" tokens="27">
+      <file line="102"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CatalogServiceImpl.java"/>
+      <file line="128"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <codefragment><![CDATA[			this.logger.error(msg, e);
+			
+			throw new CatalogException(msg, e);
+		}		
+	}
+	
+	/**
+	 * @see CatalogService#getProduct(String)
+	 */
+	public Product getProduct(String id) throws CatalogException {]]></codefragment>
+   </duplication>
+   <duplication lines="11" tokens="27">
+      <file line="109"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <file line="127"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\service\impl\CachedCatalogServiceImpl.java"/>
+      <codefragment><![CDATA[			String msg = "Could not update product " + e.getMessage();
+			this.logger.error(msg, e);
+			
+			throw new CatalogException(msg, e);
+		}		
+	}
+	
+	/**
+	 * @see CatalogService#deleteProduct(Product)
+	 */
+	public void deleteProduct(Product product) throws CatalogException {]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="25">
+      <file line="239"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\view\bean\ProductBean.java"/>
+      <file line="76"
+            path="D:\srinivasiyer\EcliWorkkSpace\Jcatalog\src\catalog\model\businessobject\Product.java"/>
+      <codefragment><![CDATA[	}
+	
+	public Set getCategoryIds() {
+		return this.categoryIds;
+	}
+	
+	public void setCategoryIds(Set newCategoryIds) {
+		this.categoryIds = newCategoryIds;]]></codefragment>
+   </duplication>
+</pmd-cpd>

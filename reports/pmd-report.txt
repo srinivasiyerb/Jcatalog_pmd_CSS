@@ -1,0 +1,654 @@
+src/catalog/model/businessobject/Category.java:12:	Avoid variables with short names like id
+src/catalog/model/businessobject/Category.java:19:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/model/businessobject/Category.java:19:	Document empty constructor
+src/catalog/model/businessobject/Category.java:26:	Parameter 'newId' is not assigned and could be declared final
+src/catalog/model/businessobject/Category.java:34:	Parameter 'newName' is not assigned and could be declared final
+src/catalog/model/businessobject/Category.java:42:	Parameter 'newDescription' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:15:	Avoid variables with short names like id
+src/catalog/model/businessobject/Product.java:34:	Parameter 'newId' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:42:	Parameter 'newName' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:50:	Parameter 'newDescription' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:58:	Parameter 'newWidth' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:66:	Parameter 'newHeight' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:74:	Parameter 'newPrice' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:82:	Parameter 'newCategoryIds' is not assigned and could be declared final
+src/catalog/model/businessobject/Product.java:86:	Avoid variables with short names like id
+src/catalog/model/businessobject/Product.java:86:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/businessobject/User.java:11:	A Classname should have a minimum of five characters
+src/catalog/model/businessobject/User.java:18:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/model/businessobject/User.java:18:	Document empty constructor
+src/catalog/model/businessobject/User.java:25:	Parameter 'newUsername' is not assigned and could be declared final
+src/catalog/model/businessobject/User.java:33:	Parameter 'newPassword' is not assigned and could be declared final
+src/catalog/model/dao/CatalogDao.java:25:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:33:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:33:	Avoid variables with short names like id
+src/catalog/model/dao/CatalogDao.java:40:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:47:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:54:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:62:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/CatalogDao.java:62:	Avoid variables with short names like id
+src/catalog/model/dao/CatalogDao.java:69:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/UserDao.java:22:	Avoid modifiers which are implied by the context
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:30:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:37:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:45:	Avoid variables with short names like id
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:45:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:52:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:59:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:68:	Parameter 'session' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:71:	Avoid variables with short names like sb
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:71:	Local variable 'sb' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:72:	StringBuffer (or StringBuilder).append is called 3 consecutive times with literal Strings. Use a single append with a single combined String.
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:76:	Local variable 'query' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:77:	Local variable 'list' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:87:	Avoid variables with short names like id
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:87:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:96:	Parameter 'session' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:99:	Avoid variables with short names like sb
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:99:	Local variable 'sb' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:100:	StringBuffer (or StringBuilder).append is called 3 consecutive times with literal Strings. Use a single append with a single combined String.
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:104:	Local variable 'query' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:105:	Local variable 'list' could be declared final
+src/catalog/model/dao/hibernate/CatalogDaoHibernateImpl.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/dao/hibernate/UserDaoHibernateImpl.java:21:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/model/dao/hibernate/UserDaoHibernateImpl.java:28:	Parameter 'username' is not assigned and could be declared final
+src/catalog/model/dao/hibernate/UserDaoHibernateImpl.java:29:	Local variable 'user' could be declared final
+src/catalog/model/dao/hibernate/UserDaoHibernateImpl.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/dao/hibernate/UserDaoHibernateImpl.java:30:	Consider simply returning the value vs storing it in local variable 'user'
+src/catalog/model/exception/CatalogException.java:17:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/exception/CatalogException.java:27:	Parameter 'cause' is not assigned and could be declared final
+src/catalog/model/exception/CatalogException.java:27:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/exception/DuplicateProductIdException.java:19:	Parameter 'cause' is not assigned and could be declared final
+src/catalog/model/exception/DuplicateProductIdException.java:19:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/exception/UsernameNotExistException.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/exception/UsernameNotExistException.java:13:	Private field 'username' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/exception/UsernameNotExistException.java:20:	Parameter 'newUsername' is not assigned and could be declared final
+src/catalog/model/service/CatalogService.java:27:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:35:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:43:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:51:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:60:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:68:	Avoid modifiers which are implied by the context
+src/catalog/model/service/CatalogService.java:76:	Avoid modifiers which are implied by the context
+src/catalog/model/service/UserService.java:25:	Avoid modifiers which are implied by the context
+src/catalog/model/service/UserService.java:27:	Comment is too large: Too many lines
+src/catalog/model/service/UserService.java:36:	Avoid modifiers which are implied by the context
+src/catalog/model/service/UserService.java:36:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:26:	Comment is too large: Too many lines
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:30:	Comment is too large: Line too long
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:32:	Comment is too large: Line too long
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:41:	Logger should be defined private static final and have the correct class
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:41:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:47:	Private field 'productCache' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:50:	Private field 'categoryCache' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:69:	Parameter 'newCatalogDao' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:76:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:77:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:77:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:77:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:80:	Local variable 'newProduct' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:86:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:90:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:91:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:101:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:102:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:102:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:102:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:108:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:109:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:119:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:120:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:120:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:120:	Useless parentheses.
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:126:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:127:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:137:	Avoid variables with short names like id
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:137:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:144:	Avoid variables with short names like id
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:144:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:162:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:163:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:174:	Local variable 'products' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:177:	Avoid variables with short names like p
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:177:	Local variable 'p' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:181:	Local variable 'categories' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:184:	Avoid variables with short names like c
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:184:	Local variable 'c' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:189:	Parameter 'data' is not assigned and could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:190:	Local variable 'list' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:191:	Local variable 'values' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:193:	Local variable 'ite' could be declared final
+src/catalog/model/service/impl/CachedCatalogServiceImpl.java:193:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/CatalogServiceImpl.java:20:	Comment is too large: Too many lines
+src/catalog/model/service/impl/CatalogServiceImpl.java:24:	Comment is too large: Line too long
+src/catalog/model/service/impl/CatalogServiceImpl.java:29:	Comment is too large: Line too long
+src/catalog/model/service/impl/CatalogServiceImpl.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CatalogServiceImpl.java:37:	Logger should be defined private static final and have the correct class
+src/catalog/model/service/impl/CatalogServiceImpl.java:37:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/service/impl/CatalogServiceImpl.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/CatalogServiceImpl.java:49:	Parameter 'newCatalogDao' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:56:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:57:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CatalogServiceImpl.java:57:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:57:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:60:	Local variable 'newProduct' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:64:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:68:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:69:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:79:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:80:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CatalogServiceImpl.java:80:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:80:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:84:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:85:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:95:	Parameter 'product' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:96:	This statement may have some unnecessary parentheses
+src/catalog/model/service/impl/CatalogServiceImpl.java:96:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:96:	Useless parentheses.
+src/catalog/model/service/impl/CatalogServiceImpl.java:100:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:101:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:111:	Avoid variables with short names like id
+src/catalog/model/service/impl/CatalogServiceImpl.java:111:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:114:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:115:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:125:	Avoid variables with short names like id
+src/catalog/model/service/impl/CatalogServiceImpl.java:125:	Parameter 'id' is not assigned and could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:128:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:129:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:142:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:143:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/CatalogServiceImpl.java:156:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/CatalogServiceImpl.java:157:	Local variable 'msg' could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:20:	Comment is too large: Too many lines
+src/catalog/model/service/impl/UserServiceImpl.java:24:	Comment is too large: Line too long
+src/catalog/model/service/impl/UserServiceImpl.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:31:	Logger should be defined private static final and have the correct class
+src/catalog/model/service/impl/UserServiceImpl.java:31:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/model/service/impl/UserServiceImpl.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:37:	Avoid excessively long variable names like defaultSenderAddress
+src/catalog/model/service/impl/UserServiceImpl.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/model/service/impl/UserServiceImpl.java:48:	Parameter 'host' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:52:	Avoid excessively long variable names like newDefaultSenderAddress
+src/catalog/model/service/impl/UserServiceImpl.java:52:	Parameter 'newDefaultSenderAddress' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:56:	Avoid excessively long variable names like newDefaultSenderName
+src/catalog/model/service/impl/UserServiceImpl.java:56:	Parameter 'newDefaultSenderName' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:60:	Avoid excessively long variable names like newDefaultReceiverAddresses
+src/catalog/model/service/impl/UserServiceImpl.java:60:	Parameter 'newDefaultReceiverAddresses' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:64:	Parameter 'newUserDao' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:71:	Parameter 'password' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:71:	Parameter 'username' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/service/impl/UserServiceImpl.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/service/impl/UserServiceImpl.java:76:	These nested if statements could be combined
+src/catalog/model/service/impl/UserServiceImpl.java:77:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/catalog/model/service/impl/UserServiceImpl.java:84:	New exception is thrown in catch block, original stack trace may be lost
+src/catalog/model/service/impl/UserServiceImpl.java:85:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/service/impl/UserServiceImpl.java:94:	Avoid reassigning parameters such as 'senderAddress'
+src/catalog/model/service/impl/UserServiceImpl.java:94:	Avoid reassigning parameters such as 'senderName'
+src/catalog/model/service/impl/UserServiceImpl.java:94:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:94:	Parameter 'sub' is not assigned and could be declared final
+src/catalog/model/service/impl/UserServiceImpl.java:94:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/catalog/model/service/impl/UserServiceImpl.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/service/impl/UserServiceImpl.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/service/impl/UserServiceImpl.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/service/impl/UserServiceImpl.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/model/util/EmailUtil.java:28:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/catalog/model/util/EmailUtil.java:30:	Logger should be defined private static final and have the correct class
+src/catalog/model/util/EmailUtil.java:32:	Comment is too large: Too many lines
+src/catalog/model/util/EmailUtil.java:42:	Parameter 'senderAddress' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:42:	Parameter 'senderName' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:42:	Parameter 'smtpHost' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:42:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/catalog/model/util/EmailUtil.java:43:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:43:	Parameter 'receiverAddress' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:43:	Parameter 'sub' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:44:	Local variable 'recipients' could be declared final
+src/catalog/model/util/EmailUtil.java:50:	Comment is too large: Too many lines
+src/catalog/model/util/EmailUtil.java:60:	Parameter 'senderAddress' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:60:	Parameter 'senderName' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:60:	Parameter 'smtpHost' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:60:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/catalog/model/util/EmailUtil.java:61:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:61:	Parameter 'recipients' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:61:	Parameter 'sub' is not assigned and could be declared final
+src/catalog/model/util/EmailUtil.java:63:	Local variable 'errMsg' could be declared final
+src/catalog/model/util/EmailUtil.java:70:	Local variable 'props' could be declared final
+src/catalog/model/util/EmailUtil.java:71:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/model/util/EmailUtil.java:72:	Local variable 'session' could be declared final
+src/catalog/model/util/EmailUtil.java:73:	Local variable 'message' could be declared final
+src/catalog/model/util/EmailUtil.java:78:	Local variable 'it' could be declared final
+src/catalog/model/util/EmailUtil.java:79:	Local variable 'email' could be declared final
+src/catalog/model/util/EmailUtil.java:86:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/model/util/EmailUtil.java:87:	Local variable 'errorMsg' could be declared final
+src/catalog/view/bean/ApplicationBean.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ApplicationBean.java:28:	Logger should be defined private static final and have the correct class
+src/catalog/view/bean/ApplicationBean.java:28:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ApplicationBean.java:31:	Avoid excessively long variable names like categorySelectItems
+src/catalog/view/bean/ApplicationBean.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ApplicationBean.java:31:	Private field 'categorySelectItems' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ApplicationBean.java:37:	Avoid excessively long variable names like productImageDirUri
+src/catalog/view/bean/ApplicationBean.java:40:	Avoid excessively long variable names like imageUploadResultPage
+src/catalog/view/bean/ApplicationBean.java:47:	It is a good practice to call super() in a constructor
+src/catalog/view/bean/ApplicationBean.java:63:	Local variable 'list' could be declared final
+src/catalog/view/bean/ApplicationBean.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:66:	Avoid variables with short names like c
+src/catalog/view/bean/ApplicationBean.java:66:	Local variable 'c' could be declared final
+src/catalog/view/bean/ApplicationBean.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:67:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ApplicationBean.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:69:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ApplicationBean.java:70:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ApplicationBean.java:72:	New exception is thrown in catch block, original stack trace may be lost
+src/catalog/view/bean/ApplicationBean.java:86:	Avoid excessively long variable names like newProductsPerPage
+src/catalog/view/bean/ApplicationBean.java:86:	Parameter 'newProductsPerPage' is not assigned and could be declared final
+src/catalog/view/bean/ApplicationBean.java:94:	Avoid excessively long variable names like newProductImageDirUri
+src/catalog/view/bean/ApplicationBean.java:94:	Parameter 'newProductImageDirUri' is not assigned and could be declared final
+src/catalog/view/bean/ApplicationBean.java:103:	Avoid excessively long variable names like newImageUploadResultPage
+src/catalog/view/bean/ApplicationBean.java:103:	Parameter 'newImageUploadResultPage' is not assigned and could be declared final
+src/catalog/view/bean/ApplicationBean.java:118:	Avoid variables with short names like id
+src/catalog/view/bean/ApplicationBean.java:118:	Parameter 'id' is not assigned and could be declared final
+src/catalog/view/bean/ApplicationBean.java:120:	Local variable 'ite' could be declared final
+src/catalog/view/bean/ApplicationBean.java:123:	Avoid variables with short names like i
+src/catalog/view/bean/ApplicationBean.java:123:	Local variable 'i' could be declared final
+src/catalog/view/bean/ApplicationBean.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ApplicationBean.java:125:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ApplicationBean.java:125:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/BaseBean.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/BaseBean.java:16:	Logger should be defined private static final and have the correct class
+src/catalog/view/bean/BaseBean.java:21:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/view/bean/BaseBean.java:21:	Document empty constructor
+src/catalog/view/bean/BaseBean.java:28:	Parameter 'newServiceLocator' is not assigned and could be declared final
+src/catalog/view/bean/BaseBean.java:35:	Comment is too large: Too many lines
+src/catalog/view/bean/BaseBean.java:42:	Comment is too large: Line too long
+src/catalog/view/bean/BaseBean.java:44:	Document empty method
+src/catalog/view/bean/BeanNames.java:11:	Each class should declare at least one constructor
+src/catalog/view/bean/BeanNames.java:16:	Avoid excessively long variable names like SERVICE_LOCATOR_BEAN
+src/catalog/view/bean/MessageBean.java:35:	It is a good practice to call super() in a constructor
+src/catalog/view/bean/MessageBean.java:50:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/MessageBean.java:51:	Local variable 'msg' could be declared final
+src/catalog/view/bean/MessageBean.java:54:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/MessageBean.java:66:	Parameter 'newFirstName' is not assigned and could be declared final
+src/catalog/view/bean/MessageBean.java:74:	Parameter 'newLastName' is not assigned and could be declared final
+src/catalog/view/bean/MessageBean.java:82:	Parameter 'newEmailAddress' is not assigned and could be declared final
+src/catalog/view/bean/MessageBean.java:90:	Parameter 'newContent' is not assigned and could be declared final
+src/catalog/view/bean/NavigationResults.java:11:	Each class should declare at least one constructor
+src/catalog/view/bean/NavigationResults.java:12:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:14:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:16:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:18:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:20:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:22:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:24:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:26:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:28:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/NavigationResults.java:30:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/ProductBean.java:28:	Avoid variables with short names like id
+src/catalog/view/bean/ProductBean.java:49:	Avoid excessively long variable names like selectedCategoryIds
+src/catalog/view/bean/ProductBean.java:54:	It is a good practice to call super() in a constructor
+src/catalog/view/bean/ProductBean.java:69:	Avoid variables with short names like p
+src/catalog/view/bean/ProductBean.java:69:	Local variable 'p' could be declared final
+src/catalog/view/bean/ProductBean.java:72:	The String literal "Product with id of " appears 4 times in this file; the first occurrence is on line 72
+src/catalog/view/bean/ProductBean.java:75:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:91:	Local variable 'product' could be declared final
+src/catalog/view/bean/ProductBean.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductBean.java:98:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ProductBean.java:99:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:103:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductBean.java:106:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:122:	Local variable 'product' could be declared final
+src/catalog/view/bean/ProductBean.java:128:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductBean.java:128:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductBean.java:134:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:138:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductBean.java:139:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ProductBean.java:140:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:144:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductBean.java:146:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:163:	Local variable 'product' could be declared final
+src/catalog/view/bean/ProductBean.java:169:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ProductBean.java:170:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:174:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductBean.java:177:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductBean.java:188:	Comment is too large: Too many lines
+src/catalog/view/bean/ProductBean.java:197:	Parameter 'newId' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:205:	Parameter 'newName' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:213:	Parameter 'newDescription' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:221:	Parameter 'newPrice' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:229:	Parameter 'newWidth' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:237:	Parameter 'newHeight' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:245:	Parameter 'newCategoryIds' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:249:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductBean.java:257:	Avoid excessively long variable names like newSelectedCategoryIds
+src/catalog/view/bean/ProductBean.java:257:	Parameter 'newSelectedCategoryIds' is not assigned and could be declared final
+src/catalog/view/bean/ProductBean.java:270:	Avoid excessively long variable names like shortDescriptionLength
+src/catalog/view/bean/ProductBean.java:270:	Found 'DU'-anomaly for variable 'shortDescriptionLength' (lines '270'-'286').
+src/catalog/view/bean/ProductBean.java:270:	Local variable 'shortDescriptionLength' could be declared final
+src/catalog/view/bean/ProductBean.java:272:	Avoid variables with short names like sb
+src/catalog/view/bean/ProductBean.java:272:	Local variable 'sb' could be declared final
+src/catalog/view/bean/ProductBean.java:275:	Local variable 'words' could be declared final
+src/catalog/view/bean/ProductBean.java:277:	Local variable 'length' could be declared final
+src/catalog/view/bean/ProductBean.java:277:	Useless parentheses.
+src/catalog/view/bean/ProductBean.java:277:	Useless parentheses.
+src/catalog/view/bean/ProductBean.java:281:	Avoid appending characters as strings in StringBuffer.append.
+src/catalog/view/bean/ProductListBean.java:19:	Comment is too large: Too many lines
+src/catalog/view/bean/ProductListBean.java:30:	Avoid excessively long variable names like DEFAULT_PRODUCTS_PER_PAGE
+src/catalog/view/bean/ProductListBean.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:33:	Private field 'productBeans' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ProductListBean.java:36:	Avoid excessively long variable names like currentProductBeans
+src/catalog/view/bean/ProductListBean.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:45:	Avoid excessively long variable names like currentCategoryName
+src/catalog/view/bean/ProductListBean.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ProductListBean.java:59:	It is a good practice to call super() in a constructor
+src/catalog/view/bean/ProductListBean.java:67:	Comment is too large: Too many lines
+src/catalog/view/bean/ProductListBean.java:81:	Local variable 'products' could be declared final
+src/catalog/view/bean/ProductListBean.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:84:	Local variable 'product' could be declared final
+src/catalog/view/bean/ProductListBean.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:86:	Local variable 'productBean' could be declared final
+src/catalog/view/bean/ProductListBean.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:97:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ProductListBean.java:98:	Local variable 'msg' could be declared final
+src/catalog/view/bean/ProductListBean.java:113:	Local variable 'pageNoString' could be declared final
+src/catalog/view/bean/ProductListBean.java:117:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/ProductListBean.java:133:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductListBean.java:137:	Avoid excessively long variable names like categoryProductBeans
+src/catalog/view/bean/ProductListBean.java:137:	Local variable 'categoryProductBeans' could be declared final
+src/catalog/view/bean/ProductListBean.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:141:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/bean/ProductListBean.java:141:	Local variable 'productBeans' could be declared final
+src/catalog/view/bean/ProductListBean.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:178:	Avoid excessively long variable names like categoryProductsMap
+src/catalog/view/bean/ProductListBean.java:178:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/catalog/view/bean/ProductListBean.java:178:	Local variable 'categoryProductsMap' could be declared final
+src/catalog/view/bean/ProductListBean.java:181:	Local variable 'product' could be declared final
+src/catalog/view/bean/ProductListBean.java:183:	Local variable 'categoryIds' could be declared final
+src/catalog/view/bean/ProductListBean.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:184:	Local variable 'ite' could be declared final
+src/catalog/view/bean/ProductListBean.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:186:	Local variable 'categoryId' could be declared final
+src/catalog/view/bean/ProductListBean.java:188:	Avoid if (x != y) ..; else ..;
+src/catalog/view/bean/ProductListBean.java:190:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ProductListBean.java:190:	Local variable 'list' could be declared final
+src/catalog/view/bean/ProductListBean.java:191:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:195:	Local variable 'list' could be declared final
+src/catalog/view/bean/ProductListBean.java:196:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:201:	Local variable 'ite' could be declared final
+src/catalog/view/bean/ProductListBean.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:204:	Local variable 'category' could be declared final
+src/catalog/view/bean/ProductListBean.java:206:	Local variable 'productBeans' could be declared final
+src/catalog/view/bean/ProductListBean.java:219:	Avoid unused private methods such as 'getProductBeanById(String)'.
+src/catalog/view/bean/ProductListBean.java:219:	Avoid variables with short names like id
+src/catalog/view/bean/ProductListBean.java:219:	Parameter 'id' is not assigned and could be declared final
+src/catalog/view/bean/ProductListBean.java:220:	Local variable 'ite' could be declared final
+src/catalog/view/bean/ProductListBean.java:222:	Avoid variables with short names like p
+src/catalog/view/bean/ProductListBean.java:222:	Local variable 'p' could be declared final
+src/catalog/view/bean/ProductListBean.java:224:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:224:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/bean/ProductListBean.java:225:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/ProductListBean.java:238:	Parameter 'products' is not assigned and could be declared final
+src/catalog/view/bean/ProductListBean.java:242:	Avoid excessively long variable names like pagenatedProductBeans
+src/catalog/view/bean/ProductListBean.java:242:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/catalog/view/bean/ProductListBean.java:242:	Local variable 'pagenatedProductBeans' could be declared final
+src/catalog/view/bean/ProductListBean.java:244:	Found 'DD'-anomaly for variable 'totalPages' (lines '244'-'247').
+src/catalog/view/bean/ProductListBean.java:244:	Found 'DD'-anomaly for variable 'totalPages' (lines '244'-'250').
+src/catalog/view/bean/ProductListBean.java:246:	Avoid using Literals in Conditional Statements
+src/catalog/view/bean/ProductListBean.java:254:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ProductListBean.java:254:	Local variable 'productBeans' could be declared final
+src/catalog/view/bean/ProductListBean.java:255:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/bean/ProductListBean.java:255:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ProductListBean.java:259:	Avoid variables with short names like p
+src/catalog/view/bean/ProductListBean.java:259:	Local variable 'p' could be declared final
+src/catalog/view/bean/ProductListBean.java:261:	Local variable 'pageNo' could be declared final
+src/catalog/view/bean/ProductListBean.java:262:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/bean/ProductListBean.java:262:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ProductListBean.java:265:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/bean/ProductListBean.java:277:	Avoid excessively long variable names like productsOnLastPage
+src/catalog/view/bean/ProductListBean.java:277:	Parameter 'productsOnLastPage' is not assigned and could be declared final
+src/catalog/view/bean/ProductListBean.java:278:	Avoid using if statements without curly braces
+src/catalog/view/bean/ProductListBean.java:280:	Local variable 'dummyProducts' could be declared final
+src/catalog/view/bean/ProductListBean.java:281:	Local variable 'diff' could be declared final
+src/catalog/view/bean/ProductListBean.java:284:	Avoid instantiating new objects inside loops
+src/catalog/view/bean/ProductListBean.java:291:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/bean/ProductListBean.java:292:	Avoid using Literals in Conditional Statements
+src/catalog/view/bean/RequestParamNames.java:11:	Each class should declare at least one constructor
+src/catalog/view/bean/RequestParamNames.java:12:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/RequestParamNames.java:14:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/RequestParamNames.java:16:	Use explicit scoping instead of the default package private level
+src/catalog/view/bean/ServiceLocatorBean.java:19:	Comment is too large: Too many lines
+src/catalog/view/bean/ServiceLocatorBean.java:30:	Avoid excessively long variable names like CATALOG_SERVICE_BEAN_NAME
+src/catalog/view/bean/ServiceLocatorBean.java:33:	Avoid excessively long variable names like USER_SERVICE_BEAN_NAME
+src/catalog/view/bean/ServiceLocatorBean.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ServiceLocatorBean.java:36:	Logger should be defined private static final and have the correct class
+src/catalog/view/bean/ServiceLocatorBean.java:36:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ServiceLocatorBean.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ServiceLocatorBean.java:39:	Private field 'appContext' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ServiceLocatorBean.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ServiceLocatorBean.java:42:	Private field 'catalogService' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ServiceLocatorBean.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/bean/ServiceLocatorBean.java:45:	Private field 'userService' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/bean/ServiceLocatorBean.java:47:	Comment is too large: Too many lines
+src/catalog/view/bean/ServiceLocatorBean.java:58:	Local variable 'context' could be declared final
+src/catalog/view/bean/ServiceLocatorBean.java:90:	Parameter 'serviceBeanName' is not assigned and could be declared final
+src/catalog/view/bean/SessionBean.java:17:	Avoid unnecessary constructors - the compiler will generate these for you
+src/catalog/view/bean/SessionBean.java:17:	Document empty constructor
+src/catalog/view/bean/SessionBean.java:24:	Avoid excessively long variable names like newCurrentProductId
+src/catalog/view/bean/SessionBean.java:24:	Parameter 'newCurrentProductId' is not assigned and could be declared final
+src/catalog/view/bean/UserBean.java:28:	It is a good practice to call super() in a constructor
+src/catalog/view/bean/UserBean.java:40:	Local variable 'user' could be declared final
+src/catalog/view/bean/UserBean.java:42:	Avoid if (x != y) ..; else ..;
+src/catalog/view/bean/UserBean.java:45:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/UserBean.java:50:	Local variable 'msg' could be declared final
+src/catalog/view/bean/UserBean.java:54:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/UserBean.java:58:	Local variable 'msg' could be declared final
+src/catalog/view/bean/UserBean.java:62:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/bean/UserBean.java:64:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/bean/UserBean.java:88:	Parameter 'newUsername' is not assigned and could be declared final
+src/catalog/view/bean/UserBean.java:96:	Parameter 'newPassword' is not assigned and could be declared final
+src/catalog/view/bean/UserBean.java:100:	A getX() method which returns a boolean should be named isX()
+src/catalog/view/bean/UserBean.java:104:	Parameter 'newLoggedIn' is not assigned and could be declared final
+src/catalog/view/bean/UserBean.java:113:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/catalog/view/bean/UserBean.java:114:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/catalog/view/builder/ProductBuilder.java:15:	Comment is too large: Too many lines
+src/catalog/view/builder/ProductBuilder.java:20:	Comment is too large: Line too long
+src/catalog/view/builder/ProductBuilder.java:25:	Comment is too large: Line too long
+src/catalog/view/builder/ProductBuilder.java:27:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/catalog/view/builder/ProductBuilder.java:29:	Avoid unused private fields such as 'logger'.
+src/catalog/view/builder/ProductBuilder.java:29:	Logger should be defined private static final and have the correct class
+src/catalog/view/builder/ProductBuilder.java:32:	Comment is too large: Line too long
+src/catalog/view/builder/ProductBuilder.java:38:	Parameter 'product' is not assigned and could be declared final
+src/catalog/view/builder/ProductBuilder.java:38:	Parameter 'productBean' is not assigned and could be declared final
+src/catalog/view/builder/ProductBuilder.java:41:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/builder/ProductBuilder.java:47:	Comment is too large: Line too long
+src/catalog/view/builder/ProductBuilder.java:53:	Parameter 'product' is not assigned and could be declared final
+src/catalog/view/builder/ProductBuilder.java:54:	Local variable 'productBean' could be declared final
+src/catalog/view/builder/ProductBuilder.java:58:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/builder/ProductBuilder.java:71:	Parameter 'productBean' is not assigned and could be declared final
+src/catalog/view/builder/ProductBuilder.java:72:	Local variable 'product' could be declared final
+src/catalog/view/builder/ProductBuilder.java:76:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/builder/ProductBuilder.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/builder/ProductBuilder.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/builder/ProductBuilder.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/builder/UserBuilder.java:12:	Comment is too large: Too many lines
+src/catalog/view/builder/UserBuilder.java:17:	Comment is too large: Line too long
+src/catalog/view/builder/UserBuilder.java:22:	Comment is too large: Line too long
+src/catalog/view/builder/UserBuilder.java:24:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/catalog/view/builder/UserBuilder.java:26:	Comment is too large: Line too long
+src/catalog/view/builder/UserBuilder.java:32:	Parameter 'user' is not assigned and could be declared final
+src/catalog/view/builder/UserBuilder.java:33:	Local variable 'userBean' could be declared final
+src/catalog/view/builder/UserBuilder.java:37:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/servicelocator/ServiceLocator.java:22:	Avoid modifiers which are implied by the context
+src/catalog/view/servicelocator/ServiceLocator.java:29:	Avoid modifiers which are implied by the context
+src/catalog/view/util/FacesUtils.java:25:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/catalog/view/util/FacesUtils.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:41:	Parameter 'beanName' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:42:	Avoid variables with short names like o
+src/catalog/view/util/FacesUtils.java:42:	Local variable 'o' could be declared final
+src/catalog/view/util/FacesUtils.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:52:	Parameter 'beanName' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:62:	Parameter 'beanName' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:62:	Parameter 'managedBean' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:72:	Parameter 'name' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:103:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:113:	Parameter 'clientId' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:113:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:122:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:132:	Parameter 'clientId' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:132:	Parameter 'msg' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:142:	Avoid variables with short names like el
+src/catalog/view/util/FacesUtils.java:142:	Parameter 'el' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:144:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/FacesUtils.java:148:	Local variable 'value' could be declared final
+src/catalog/view/util/FacesUtils.java:151:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/FacesUtils.java:154:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/FacesUtils.java:157:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/FacesUtils.java:157:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/util/FacesUtils.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FacesUtils.java:161:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/catalog/view/util/FacesUtils.java:166:	Local variable 'appFactory' could be declared final
+src/catalog/view/util/FacesUtils.java:167:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FacesUtils.java:170:	Avoid variables with short names like el
+src/catalog/view/util/FacesUtils.java:170:	Parameter 'el' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:171:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:174:	Avoid unused private methods such as 'getServletRequest()'.
+src/catalog/view/util/FacesUtils.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:178:	Avoid variables with short names like el
+src/catalog/view/util/FacesUtils.java:178:	Parameter 'el' is not assigned and could be declared final
+src/catalog/view/util/FacesUtils.java:179:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FacesUtils.java:182:	Parameter 'value' is not assigned and could be declared final
+src/catalog/view/util/FileUploadServlet.java:32:	Comment is too large: Line too long
+src/catalog/view/util/FileUploadServlet.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/util/FileUploadServlet.java:36:	Logger should be defined private static final and have the correct class
+src/catalog/view/util/FileUploadServlet.java:36:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/util/FileUploadServlet.java:46:	Parameter 'req' is not assigned and could be declared final
+src/catalog/view/util/FileUploadServlet.java:46:	Parameter 'res' is not assigned and could be declared final
+src/catalog/view/util/FileUploadServlet.java:58:	Parameter 'req' is not assigned and could be declared final
+src/catalog/view/util/FileUploadServlet.java:58:	Parameter 'res' is not assigned and could be declared final
+src/catalog/view/util/FileUploadServlet.java:63:	Local variable 'upload' could be declared final
+src/catalog/view/util/FileUploadServlet.java:66:	Local variable 'items' could be declared final
+src/catalog/view/util/FileUploadServlet.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FileUploadServlet.java:68:	Local variable 'iter' could be declared final
+src/catalog/view/util/FileUploadServlet.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FileUploadServlet.java:70:	Local variable 'item' could be declared final
+src/catalog/view/util/FileUploadServlet.java:72:	Avoid empty if statements
+src/catalog/view/util/FileUploadServlet.java:72:	Avoid empty if statements
+src/catalog/view/util/FileUploadServlet.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FileUploadServlet.java:75:	Local variable 'sessionBean' could be declared final
+src/catalog/view/util/FileUploadServlet.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FileUploadServlet.java:77:	Found 'DD'-anomaly for variable 'fileName' (lines '77'-'80').
+src/catalog/view/util/FileUploadServlet.java:77:	Found 'DD'-anomaly for variable 'fileName' (lines '77'-'83').
+src/catalog/view/util/FileUploadServlet.java:80:	Found 'DD'-anomaly for variable 'fileName' (lines '80'-'83').
+src/catalog/view/util/FileUploadServlet.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FileUploadServlet.java:83:	Prefer StringBuffer over += for concatenating strings
+src/catalog/view/util/FileUploadServlet.java:86:	Avoid instantiating new objects inside loops
+src/catalog/view/util/FileUploadServlet.java:86:	Local variable 'file' could be declared final
+src/catalog/view/util/FileUploadServlet.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/FileUploadServlet.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/FileUploadServlet.java:92:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/util/FileUploadServlet.java:94:	New exception is thrown in catch block, original stack trace may be lost
+src/catalog/view/util/FileUploadServlet.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/SecurityFilter.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/util/SecurityFilter.java:36:	Logger should be defined private static final and have the correct class
+src/catalog/view/util/SecurityFilter.java:36:	Private field 'logger' could be made final; it is only initialized in the declaration or constructor.
+src/catalog/view/util/SecurityFilter.java:39:	Avoid excessively long variable names like restrictedResources
+src/catalog/view/util/SecurityFilter.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/util/SecurityFilter.java:44:	Parameter 'filterConfig' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:54:	Parameter 'chain' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:54:	Parameter 'req' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:54:	Parameter 'res' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:58:	Local variable 'contextPath' could be declared final
+src/catalog/view/util/SecurityFilter.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:59:	Local variable 'requestUri' could be declared final
+src/catalog/view/util/SecurityFilter.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:74:	Document empty method
+src/catalog/view/util/SecurityFilter.java:76:	Parameter 'contextPath' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:76:	Parameter 'value' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:77:	Local variable 'ite' could be declared final
+src/catalog/view/util/SecurityFilter.java:80:	Avoid excessively long variable names like restrictedResource
+src/catalog/view/util/SecurityFilter.java:80:	Local variable 'restrictedResource' could be declared final
+src/catalog/view/util/SecurityFilter.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:82:	Useless parentheses.
+src/catalog/view/util/SecurityFilter.java:82:	Useless parentheses.
+src/catalog/view/util/SecurityFilter.java:83:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/SecurityFilter.java:90:	Parameter 'req' is not assigned and could be declared final
+src/catalog/view/util/SecurityFilter.java:91:	Local variable 'user' could be declared final
+src/catalog/view/util/SecurityFilter.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/util/SecurityFilter.java:93:	Avoid unnecessary if..then..else statements when returning booleans
+src/catalog/view/util/SecurityFilter.java:93:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/util/SecurityFilter.java:95:	A method should have only one exit point, and that should be the last statement in the method
+src/catalog/view/util/ViewUtils.java:17:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/catalog/view/util/ViewUtils.java:24:	Parameter 'orig' is not assigned and could be declared final
+src/catalog/view/util/ViewUtils.java:25:	Local variable 'result' could be declared final
+src/catalog/view/util/ViewUtils.java:28:	Local variable 'ite' could be declared final
+src/catalog/view/util/ViewUtils.java:43:	Parameter 'orig' is not assigned and could be declared final
+src/catalog/view/util/ViewUtils.java:44:	Local variable 'result' could be declared final
+src/catalog/view/util/ViewUtils.java:47:	Local variable 'ite' could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:15:	Comment is too large: Too many lines
+src/catalog/view/validator/SelectedItemsRangeValidator.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/validator/SelectedItemsRangeValidator.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/validator/SelectedItemsRangeValidator.java:37:	Parameter 'component' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:37:	Parameter 'context' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:37:	Parameter 'value' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:42:	Found 'DD'-anomaly for variable 'valueList' (lines '42'-'45').
+src/catalog/view/validator/SelectedItemsRangeValidator.java:45:	Found 'DU'-anomaly for variable 'valueList' (lines '45'-'64').
+src/catalog/view/validator/SelectedItemsRangeValidator.java:46:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/catalog/view/validator/SelectedItemsRangeValidator.java:47:	New exception is thrown in catch block, original stack trace may be lost
+src/catalog/view/validator/SelectedItemsRangeValidator.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidator.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidator.java:60:	Local variable 'message' could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:66:	Parameter 'newMinNum' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidator.java:70:	Parameter 'newMaxNum' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'VALIDATOR_ID' is not final.
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:20:	The field name indicates a constant but its modifiers do not
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:20:	Variables should start with a lowercase character, 'VALIDATOR_ID' starts with uppercase character.
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:31:	It is a good practice to call super() in a constructor
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:35:	Parameter 'newMinNum' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:39:	Parameter 'newMaxNum' is not assigned and could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:49:	Local variable 'validator' could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:51:	Local variable 'minValue' could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:56:	Local variable 'maxValue' could be declared final
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:65:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/catalog/view/validator/SelectedItemsRangeValidatorTag.java:66:	Assigning an Object to null is a code smell.  Consider refactoring.
